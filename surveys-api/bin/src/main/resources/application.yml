@@ -1,0 +1,13 @@
+micronaut:
+  application:
+    name: surveys-api
+  router:
+    static-resources:
+      swagger:
+        paths: classpath:META-INF/swagger
+        mapping: /swagger/**
+      swagger-ui:
+        paths: classpath:META-INF/swagger/views/swagger-ui
+        mapping: /swagger-ui/**
+        enabled: true
+        theme: MATERIAL
