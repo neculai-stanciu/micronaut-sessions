@@ -25,12 +25,13 @@ Answer:
 
 Endpoints:
 /surveys - lista de surverys
-/surverys/{id}
+/surveys/{id}
 
-/surverys/{id}/questions
-/surverys/{id}/questions/{id}
+/surveys/{id}/questions
+/surveys/{id}/questions/{id}
 
-/surverys/{id}/questions/{id}/answers
-/surverys/{id}/questions/{id}/answers/{id}
+~~/surveys/{id}/questions/{id}/answers~~
+~~/surveys/{id}/questions/{id}/answers/{id}~~~
+
 
 

@@ -11,3 +11,6 @@ micronaut:
         mapping: /swagger-ui/**
         enabled: true
         theme: MATERIAL
+jackson:
+  date-format: dd-MM-yyyy hh:mm
+
