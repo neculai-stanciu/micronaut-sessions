@@ -1,4 +1,4 @@
-package com.ing.resource;
+package com.nstanciu.tutorials.mn.surveys.resource;
 
 
 import io.micronaut.http.HttpRequest;

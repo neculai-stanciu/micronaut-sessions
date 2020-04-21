@@ -1,8 +1,8 @@
-package com.ing.resource;
+package com.nstanciu.tutorials.mn.surveys.resource;
 
-import com.ing.model.Survey;
-import com.ing.service.MessageSource;
-import com.ing.service.SurveyService;
+import com.nstanciu.tutorials.mn.surveys.model.Survey;
+import com.nstanciu.tutorials.mn.surveys.service.MessageSource;
+import com.nstanciu.tutorials.mn.surveys.service.SurveyService;
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.Controller;

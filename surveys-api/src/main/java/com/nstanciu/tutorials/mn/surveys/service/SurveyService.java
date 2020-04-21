@@ -1,8 +1,8 @@
-package com.ing.service;
+package com.nstanciu.tutorials.mn.surveys.service;
 
-import com.ing.model.Answer;
-import com.ing.model.Question;
-import com.ing.model.Survey;
+import com.nstanciu.tutorials.mn.surveys.model.Answer;
+import com.nstanciu.tutorials.mn.surveys.model.Question;
+import com.nstanciu.tutorials.mn.surveys.model.Survey;
 import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.Collection;
@@ -11,7 +11,6 @@ import java.util.Map;
 import java.util.Random;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import javax.inject.Singleton;

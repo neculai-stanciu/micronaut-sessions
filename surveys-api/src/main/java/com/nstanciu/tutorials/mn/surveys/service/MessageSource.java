@@ -1,4 +1,4 @@
-package com.ing.service;
+package com.nstanciu.tutorials.mn.surveys.service;
 
 import javax.inject.Singleton;
 import javax.validation.ConstraintViolation;

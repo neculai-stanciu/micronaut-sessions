@@ -1,5 +1,5 @@
 profile: service
-defaultPackage: com.ing
+defaultPackage: com.nstanciu.tutorials.mn.surveys
 ---
 testFramework: junit
 sourceLanguage: java

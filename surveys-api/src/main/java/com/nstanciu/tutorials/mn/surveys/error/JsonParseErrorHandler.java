@@ -1,4 +1,4 @@
-package com.ing.error;
+package com.nstanciu.tutorials.mn.surveys.error;
 
 import io.micronaut.http.HttpRequest;
 import io.micronaut.http.HttpResponse;

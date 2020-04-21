@@ -1,4 +1,4 @@
-package com.ing;
+package com.nstanciu.tutorials.mn.surveys;
 
 import io.micronaut.runtime.Micronaut;
 import io.swagger.v3.oas.annotations.*;

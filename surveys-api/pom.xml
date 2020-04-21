@@ -8,16 +8,16 @@
     <version>2.0.0.M2</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ing</groupId>
+  <groupId>com.nstanciu.tutorials.mn.surveys</groupId>
   <artifactId>surveys-api</artifactId>
   <version>0.1</version>
   <properties>
-    <jdk.version>1.8</jdk.version>
+    <jdk.version>11</jdk.version>
     <maven.compiler.target>${jdk.version}</maven.compiler.target>
     <maven.compiler.source>${jdk.version}</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <exec.mainClass>com.ing.Application</exec.mainClass>
+    <exec.mainClass>com.nstanciu.tutorials.mn.surveys.Application</exec.mainClass>
     <maven-surefire-plugin.version>2.22.2</maven-surefire-plugin.version>
     <maven-failsafe-plugin.version>2.22.2</maven-failsafe-plugin.version>
     <lombok.version>1.18.12</lombok.version>

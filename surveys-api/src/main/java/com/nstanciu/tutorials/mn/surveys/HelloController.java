@@ -1,4 +1,4 @@
-package com.ing;
+package com.nstanciu.tutorials.mn.surveys;
 
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;

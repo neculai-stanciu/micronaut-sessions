@@ -1,4 +1,4 @@
-package com.ing.filter;
+package com.nstanciu.tutorials.mn.surveys.filter;
 
 import java.time.Duration;
 

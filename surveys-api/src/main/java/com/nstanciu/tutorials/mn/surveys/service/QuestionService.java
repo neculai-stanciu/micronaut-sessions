@@ -1,9 +1,9 @@
-package com.ing.service;
+package com.nstanciu.tutorials.mn.surveys.service;
 
 import static java.util.stream.Collectors.toList;
 
-import com.ing.model.Question;
-import com.ing.model.Survey;
+import com.nstanciu.tutorials.mn.surveys.model.Question;
+import com.nstanciu.tutorials.mn.surveys.model.Survey;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;

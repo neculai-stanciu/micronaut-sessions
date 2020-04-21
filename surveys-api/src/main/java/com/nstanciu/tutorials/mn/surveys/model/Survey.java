@@ -1,4 +1,4 @@
-package com.ing.model;
+package com.nstanciu.tutorials.mn.surveys.model;
 
 import io.micronaut.core.annotation.Introspected;
 import java.time.LocalDateTime;

@@ -1,8 +1,7 @@
-package com.ing.resource;
+package com.nstanciu.tutorials.mn.surveys.resource;
 
-import com.ing.model.Question;
-import com.ing.service.QuestionService;
-import io.micronaut.http.HttpResponse;
+import com.nstanciu.tutorials.mn.surveys.model.Question;
+import com.nstanciu.tutorials.mn.surveys.service.QuestionService;
 import io.micronaut.http.annotation.Body;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Delete;
@@ -12,7 +11,6 @@ import io.micronaut.http.annotation.Post;
 import io.micronaut.http.annotation.Put;
 import java.util.List;
 import java.util.Optional;
-import java.util.concurrent.CompletableFuture;
 import javax.validation.Valid;
 
 @Controller("/surveys/{id}/questions")
@@ -41,19 +39,14 @@ public class QuestionResource {
   }
 
   @Post
-  public CompletableFuture<HttpResponse<Question>> save(@PathVariable String id,
-      @Valid CompletableFuture<Question> question) {
-
-    return question.thenApply(q -> {
-      questionService.saveQuestion(id, q);
-      return HttpResponse.created(q);
-    });
+  public void save(@PathVariable String id,
+      @Valid Question question) {
+    questionService.saveQuestion(id, question);
   }
 
   @Delete("/{qid}")
   @SuppressWarnings("rawtypes")
-  public CompletableFuture<HttpResponse> delete(@PathVariable String id, @PathVariable String qid) {
-    return CompletableFuture.runAsync(() -> questionService.deleteQuestion(id,qid))
-        .thenApply(aVoid -> HttpResponse.accepted());
+  public void delete(@PathVariable String id, @PathVariable String qid) {
+    questionService.deleteQuestion(id,qid);
   }
 }
